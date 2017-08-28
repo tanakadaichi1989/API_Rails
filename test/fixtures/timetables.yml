@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dept_time: MyString
+  train_type: MyString
+  destination: MyString
+  memo: MyText
+
+two:
+  dept_time: MyString
+  train_type: MyString
+  destination: MyString
+  memo: MyText
