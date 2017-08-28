@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Timetable.create(:dept_time => "07:00", :train_type => "特急", :destination => "出町柳" ,:memo => "３扉車")
