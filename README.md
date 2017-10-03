@@ -1,14 +1,16 @@
-##共有すること
+《共有すること》
 ① Rails5のAPIモードで、JSONデータを提供するAPIを実装する方法
 ② CSVで用意した初期データを投入する方法
 
-##利用する技術
+
+《利用する技術》
 Rails 5
 
-##活用した情報
-《京阪電鉄》  淀屋橋駅 【平日・出町柳方面】 時刻表の始発〜午前７時台までhttps://www.keihan.co.jp/traffic/station/stationinfo/010.html
+《活用した情報》
+京阪電鉄・淀屋橋駅 【平日・出町柳方面】 時刻表の始発〜午前７時台まで
+https://www.keihan.co.jp/traffic/station/stationinfo/010.html
 
-##下準備
+《下準備》
 時刻表データをCSVで準備
 （今回ファイル名は **yodoyabashi.csv** に設定）
 
@@ -19,7 +21,7 @@ Rails 5
 |...|...|...|...|
 
 
-##コード例
+《コード例》
 
 ① APIモードでアプリを新規作成（今回アプリの名前は、 **keihan_api** に設定）
 
@@ -70,7 +72,7 @@ end
 $ rails db:seed
 ```
 
-##実行結果
+《実行結果》
 
 下記コマンドを入力後、http://localhost:3000/timetables にアクセス
 
@@ -82,5 +84,5 @@ $ rails s
 
 ![スクリーンショット 2017-10-04 1.59.59.png](https://qiita-image-store.s3.amazonaws.com/0/199441/2f60be67-7e3e-c1c3-9e8a-8c2164287d07.png)
 
-##今後したいこと
+《今後したいこと》
 iOSアプリと自分で制作したAPIを連携させる。
